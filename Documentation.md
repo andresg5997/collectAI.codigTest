@@ -1,0 +1,6 @@
+1. The HTML Template was distributed in Invoice Header and Invoice Content, the content has the parts of the table in different components and all the components were setup in folders using a `index.js` file to allow having a specific `style.css` file for each one of them inside the same folder.
+2. The `invoice.json` is now being fetched through a very basic express server in the port 8080 (please run it using `npm run server`)
+3. The fetched data is being obtained in the main component and passed down as props to the rest of the components.
+4. The prices are automatically calculated in the TableResults component.
+5. There is a small edit button next to the item description which converts the values into text fields to allow to edit them (right now is only able to edit the local state for sake of simpleness) and can be switched back to only text by pressing the button again.
+6. There is a upload box at the bottom to drop a JSON file which overwrites the current data given to the table. (There is a `invoice_copy.json` file to test it out)

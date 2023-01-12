@@ -1,0 +1,8 @@
+.invoice-box table tr.total td:nth-child(2) {
+  border-top: 2px solid #eee;
+  font-weight: bold;
+}
+
+.invoice-box table tr.vat {
+  border-top: 2px solid #eee;
+}

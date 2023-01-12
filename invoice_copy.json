@@ -1,0 +1,15 @@
+{
+  "id": "d471c483-f15f-490b-adb3-7c5821b6d955",
+  "lineItems": [
+    { "description": "This is the new item.", "price": 32.98 },
+    {
+      "description": "I am also a new item!",
+      "price": 44.21
+    }
+  ],
+  "email": "newemail@durgan.org",
+  "fullName": "Mister Hankey",
+  "company": "Hankey and associates",
+  "createdAt": "2021-03-02",
+  "dueAt": "2021-03-05"
+}
